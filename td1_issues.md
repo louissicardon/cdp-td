@@ -22,7 +22,8 @@ Une société partenaire a déjà réalisé une partie du BackLog :
 * US8 : **En tant que** laboratoire, **je souhaite** que mes ateliers soient sauvegardés dans la base de données, **afin de** pouvoir les retrouver si le serveur redémarre.
 * US9 : **En tant que** laboratoire, **je souhaite** que l’interface soit agréable à utiliser, **afin de** faciliter l’édition des ateliers.
 * US10 : **En tant que** laboratoire, **je souhaite** que l’interface soit réalisée avec Bootstrap, **afin de** pouvoir l’utiliser sur des terminaux mobiles.
-
+* US11 : **En tant que** visiteur, **je souhaite** visionner une carte géographique localisant les ateliers **afin de** pouvoir me préparer un itinéraire.
+* US12 : **En tant que** client, **je souhaite** qu'une maintenance corrective soit mise en place pendant 12 mois, 24/7 **afin de** garantir le bon fonctionnement de la solution.
 
 **Q3 -** Les issues (user story) sont-elles identifiées de manière unique ?
 
