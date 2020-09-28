@@ -16,6 +16,15 @@ Nous souhaitons construire une approche similaire qui permet d’écrire des tes
 
 ## A faire
 
-**Travail à rendre:** Exploitez les outils d’automatisation de Tests de Validation: Selenium (http://docs.seleniumhq.org/), http://en.wikipedia.org/wiki/List_of_web_testing_tools, pour coder vos tests de validation.
+**Travail à rendre:** 
 
-Installer nodeJS, NPM pour le prochain TD
+Rendre un document avec les réponses aux questions de ce TD
+
+Installer nodeJS, NPM pour la suite
+
+1. Cloner https://github.com/jleveau/M2-Workshops.git (petite application qui permet de créer un atelier & afficher les ateliers créés)
+2. Installer et lancer le code (au besoin, lisez l'énoncé de https://github.com/xblanc33/cdp-td/blob/master/td4_code.md)
+3. Ecrire en Gherkin des scénarios de tests couvrant: (i) la création d'un atelier ; (ii) l'affichage de la liste des ateliers
+4. Implémenter les scénari que vous aurez décrits (3.) en Selenium (http://docs.seleniumhq.org/, http://en.wikipedia.org/wiki/List_of_web_testing_tools)
+
+
