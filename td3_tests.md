@@ -28,3 +28,7 @@ Installer nodeJS, NPM pour la suite
 4. Implémenter les scénari que vous aurez décrits (3.) en Selenium (http://docs.seleniumhq.org/, http://en.wikipedia.org/wiki/List_of_web_testing_tools)
 
 
+(Optionnel) L'outil de gestion des ateliers proposé ci-dessus ne plaît pas au client, il va falloir en réaliser un autre. 
+
+1. Utiliser Figma (https://www.figma.com/) pour proposer une nouvelle maquette de l'outil de gestion des ateliers.
+2. Adapter les scénari de tests écrits en Gherkin à cette nouvelle maquette 
