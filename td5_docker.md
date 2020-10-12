@@ -1,5 +1,4 @@
 # TD5 - Docker
-
 Dans ce TD nous allons nous intéresser au processus permettant de faciliter le déploiement et l’installation de releases. Pour ce faire, il nous faudra dans un premier temps commencer par créer un compte Docker en se rendant sur le lien suivant :
 
 * https://hub.docker.com/signup
