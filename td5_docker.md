@@ -15,7 +15,7 @@ Par la suite, il vous faudra créer une nouvelle instance en cliquant sur « + 
 
 **Q2 -** Lancez le container à partir de l’image que vous avez téléchargé en faisant : `docker run -p 3000:3000 oumaziz/m2-td5-q1`. Rendez-vous sur votre navigateur à l’url « http://localhost:3000 », que se passe-t-il ?
 
-**Q3 -** Clonez le répertoire [M2-TD5-workshop](https://github.com/oumaziz/M2-TD5-workshop)
+**Q3 -** Clonez le répertoire [oumaziz/M2-TD5-workshop](https://github.com/oumaziz/M2-TD5-workshop)
  sur votre ordinateur puis complétez le Dockerfile afin qu’il puisse cloner le dépôt de votre rendu du TD4. Transférez votre Dockerfile modifié sur votre environnement virtuel en faisant un glisser-déposer sur le terminal dans la page web. Enfin, buildez ce Dockerfile afin d’obtenir une image en utilisant la commande suivante :`docker build . -t <username_dockerhub>/<nom_repo>`
 
 **Q4 -** Vérifiez que votre image a bien été construite en faisant `docker images` puis lancez là en faisant `docker run -d -p 3000:3000 <username_dockerhub>/<nom_repo>`. Cliquez sur le bouton « 3000 » en haut de la page, que constatez-vous ?
@@ -26,7 +26,7 @@ Par la suite, il vous faudra créer une nouvelle instance en cliquant sur « + 
 
 **Q7 -** Transférez le fichier « docker-compose.yml » depuis votre ordinateur vers votre environnement virtuel. Tapez la commande `docker-compose up`, puis cliquez sur le bouton « 3000 »en haut de la page. Actualisez plusieurs fois la page, que constatez-vous ?
 
-**Q8 -** Clonez le dépot [M2-TD5-workshop](https://github.com/jleveau/M2-Workshops), dans le fichier index.js, remplacez la ligne 
+**Q8 -** Clonez le dépot [jleveau/M2-Workshops](https://github.com/jleveau/M2-Workshops), dans le fichier index.js, remplacez la ligne 
 `const repository = require('./inMemoryWorkshop');`
 par 
 `const repository = require("./mongoWorkshop");`
