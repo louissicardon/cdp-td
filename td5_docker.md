@@ -27,10 +27,10 @@ Par la suite, il vous faudra créer une nouvelle instance en cliquant sur « + 
 **Q7 -** Transférez le fichier « docker-compose.yml » depuis votre ordinateur vers votre environnement virtuel. Tapez la commande `docker-compose up`, puis cliquez sur le bouton « 3000 »en haut de la page. Actualisez plusieurs fois la page, que constatez-vous ?
 
 **Q8 -** Clonez le dépot [M2-TD5-workshop](https://github.com/jleveau/M2-Workshops), dans le fichier index.js, remplacez la ligne 
-const repository = require('./inMemoryWorkshop');
+`const repository = require('./inMemoryWorkshop');`
 par 
-//const repository = require("./mongoWorkshop");
-Pour fonctionner le projet à maintenant besoin d'une base de données mongodb, accessible par le hostname mongo, sur le port 27017. Créez un Dockerfile pour M2-workshops, un fichier docker-compose.yml utilisant ce Dockerfile, ainsi que l'image officielle de mongodb https://hub.docker.com/_/mongo. 
+`const repository = require("./mongoWorkshop");`
+Pour fonctionner le projet à maintenant besoin qu'une base de données mongodb, soit accessible par le hostname mongo, sur le port 27017. Créez un Dockerfile pour M2-workshops, et un fichier docker-compose.yml utilisant ce Dockerfile et l'image officielle de mongodb https://hub.docker.com/_/mongo. 
 
 ## A faire
 
